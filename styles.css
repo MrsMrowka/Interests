@@ -52,6 +52,7 @@ body{
 }
 .wrapper ul li:hover > ul{
     display: block;
+    margin-left: -40px;
 }
 
 
