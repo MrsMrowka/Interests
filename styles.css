@@ -1,0 +1,193 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #030724;
+    margin: 0 0 0 0;
+    font-family: 'Lekton', sans-serif;
+}
+
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: #030724;
+    width: 100%;
+    height: 7vh;
+}
+.menuname{
+    padding-right: 40vw;
+    color: white;
+    font-size: 30px;
+    margin-left: 10%;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.wrapper a{
+    text-decoration: none;
+    color: white;
+}
+.wrapper ul{
+    list-style: none;
+    margin-top: 2%;
+}
+.wrapper ul li{
+    background: #030724;
+    width: 10vw;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    font-size: 20px;    
+}
+.wrapper ul li a:hover{
+    color: #7f83bd;
+}
+.wrapper ul ul{
+    display: none;
+}
+.wrapper ul li:hover > ul{
+    display: block;
+}
+
+
+.info{
+    height: 84vh;
+    padding-top: 16vh;
+}
+.photo_container{
+    display: flex;
+    justify-content: center;
+}
+.photo_container >img{
+    width: 20%;
+    height: auto;
+    border-radius: 100%;
+    padding: 10px;
+    border: 5px solid #7f83bd;
+    background-color:#030724;
+}
+.name, .job, .days, .links{
+    display: flex;
+    justify-content: center;
+}
+.name{
+    margin-top: 30px;
+    color: white;
+    font-size: 55px;
+}
+.job, .days{
+    color: #7f83bd;
+    font-size: 30px;
+}
+.links{
+    color: #7f83bd;
+    font-size: 25px;
+    margin-top: 25px;
+}
+.links a{
+    color: #7f83bd;
+    padding: 15px;
+}
+
+
+.interests{
+    height: auto;
+    background-color: #050a30;
+    padding: 70px 0 50px 18vw;
+    color: white;
+}
+.interests li{
+    font-size: 25px;
+}
+.title{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 70px;
+}
+.text{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+.text >img{
+    width: 30vw;
+    height: auto;
+    margin-left: 50px;
+    border-radius: 2%;
+}
+
+
+@media (max-width: 1300px){
+    .interests{
+        padding: 70px 0 50px 10vw;
+    }
+}
+
+@media (max-width: 1200px){
+    .menuname{
+        float: left;
+    }
+    .wrapper ul li{
+        width: 15vw;
+    }
+    .interests{
+        padding: 70px 0 50px 8vw;
+    }
+}
+
+@media (max-width: 1000px){
+    .photo_container >img{
+        width: 30%;
+    }
+    .interests{
+        padding: 70px 0 50px 2vw;
+    }
+}
+
+@media (max-width: 900px){
+    .menuname{
+        padding-right: 0;
+    }
+    .links a{
+        font-size: 30px;
+    }
+    .interests{
+        padding: 70px 0 50px 6vw;
+    }
+    .text{
+        display: block;
+    }
+}
+
+@media (max-width: 700px){
+    .menuname{
+        padding-right: 20vw;
+        font-size: 20px;
+    }
+    .name{
+        font-size: 40px;
+    }
+    .job, .days{
+        font-size: 20px;
+    }
+    .links{
+        font-size: 25px;
+    }
+    .interests{
+        padding: 70px 0 50px 6vw;
+    }
+    .text{
+        display: block;
+    }
+    .text >img{
+        margin-top: 5vw;
+        width: 60vw;
+    }
+}
