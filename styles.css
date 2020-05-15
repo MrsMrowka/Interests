@@ -116,6 +116,7 @@ body{
     color: white;
     font-size: 20px;
     padding: 20px;
+    width: 65vw;
 }
 .text >img{
     width: 30vw;
@@ -127,7 +128,7 @@ body{
 
 @media (max-width: 1300px){
     .interests{
-        padding: 70px 0 50px 10vw;
+        padding: 70px 0 50px 15vw;
     }
 }
 
@@ -136,7 +137,7 @@ body{
         width: 15vw;
     }
     .interests{
-        padding: 70px 0 50px 8vw;
+        padding: 70px 0 50px 13vw;
     }
 }
 
@@ -146,7 +147,7 @@ body{
         height: 30%;
     }
     .interests{
-        padding: 70px 0 50px 2vw;
+        padding: 70px 0 50px 11vw;
     }
 }
 
@@ -158,7 +159,7 @@ body{
         font-size: 30px;
     }
     .interests{
-        padding: 70px 0 50px 6vw;
+        padding: 70px 0 50px 10vw;
     }
     .text{
         display: block;
